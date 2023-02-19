@@ -45,7 +45,7 @@ struct ContentView: View {
                         }
                     } catch {
                         print("😡 ERROR: loading failed \(error.localizedDescription)")
-                    }
+                    } 
                 }
             }
         }
